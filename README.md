@@ -2,7 +2,9 @@
 Memo during my study on go language
 
 ## Basic stuff
-[Markdown syntax](https://help.github.com/articles/markdown-basics/) and [advance](https://help.github.com/articles/github-flavored-markdown/)
+* [Markdown syntax](https://help.github.com/articles/markdown-basics/) and [advance](https://help.github.com/articles/github-flavored-markdown/)
+* [My Star Repos](https://github.com/stars)
+* [Golang Trending Repos](https://github.com/trending?l=go&since=monthly)
 
 ## Questions
 Lists of question I found during study
