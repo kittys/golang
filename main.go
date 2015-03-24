@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	fmt.Println(v)
 	http.HandleFunc("/", IndexHandler)
 	http.ListenAndServe(":8000", nil)
 }
