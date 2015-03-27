@@ -34,3 +34,12 @@ sudo dpkg -i teamviewer_linux.deb;
 ### [Google Chrome](https://www.google.com/chrome/browser/features.html) Web Browser instead of Firefox
 * try this `wget -c wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb; sudo dpkg -i google-chrome-*.deb; sudo apt-get install -f`
 * recommend extension [Postman](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?utm_source=chrome-ntp-launcher), [Postman Interceptor](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo), [Nicer Invertor](https://chrome.google.com/webstore/detail/nicer-inverter/oichlckdgnbjkmhaebnnhibamjgpndkm)
+
+### [Xcfe](https://wiki.xfce.org/faq) for desktop environment
+* add / remove keyboard shortcut from Application Menu (top left) --> Settings --> Keyboard --> Application Shortcuts
+* Useful default short cut 
+  * `Ctrl+Alt+Del` = lock screen (xflock4)
+  * `Alt+F3` = App Finder
+* Lists of all shortcut `xfconf-query -c xfce4-keyboard-shortcuts -l -v | cut -d'/' -f4 | awk '{printf "%30s", $2; print "\t" $1}' | sort | uniq`
+* Shortcut for manage window `Applications Menu --> Setting --> Settings Manager --> window manager settings > Keyboard`
+* Another place for keyboard shortcuts `Menu → Settings → Settings Editor, select "xfce4-keyboard-shortcuts`
