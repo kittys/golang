@@ -6,3 +6,10 @@
   5. Click OK
   6. Press Ctrl C to copy the data
   7. Select the destination cell, and press Ctrl V to paste the data
+
+### [calculate field in pivot table](https://support.office.com/en-nz/article/Calculate-values-in-a-PivotTable-report-697406b6-ee20-4a39-acea-8128b5e904b8)
+If items in the field are grouped, on the Options tab, in the Group group, click Ungroup.
+Click the field where you want to add the calculated item.
+On the Options tab, in the Tools group, click Formulas, and then click Calculated Item.
+In the Name box, type a name for the calculated item.
+In the Formula box, enter the formula for the item.
