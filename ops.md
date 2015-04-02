@@ -35,3 +35,9 @@ Setup this due to want to know how hard/easy to run docker app
   * `sudo service docker restart`
   * THIS IS UNSECURE because docker run as root. you need at least [enable https](https://docs.docker.com/articles/https/)
 * add engine to shipyard --> DONE
+
+### [MongoDB]() the NoSQL database
+* use [this instruction](https://devops.profitbricks.com/tutorials/creating-a-mongodb-docker-container-with-an-attached-storage-volume) for create mongodb images (by build Dockerfile)
+* but mongodb by default is no authenticate please [enable it](http://docs.mongodb.org/manual/tutorial/enable-authentication/)
+* more info on [securities](http://docs.mongodb.org/manual/administration/security)
+* use [mgo](https://labix.org/mgo) for connect go with mongodb
