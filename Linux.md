@@ -48,6 +48,10 @@ sudo dpkg -i teamviewer_linux.deb;
 like web browse with will have many tabs. [tmux](https://danielmiessler.com/study/tmux/) let's you have many tabs for terminal
 * can intall via "software manager"
 * still not get it, will come back later
+* reload config file `tmux source-file ~/.tmux.conf` from [here](https://gist.github.com/MohamedAlaa/2961058)
+* sample tmux config https://raw.github.com/danielmiessler/tmux/master/.tmux.config
+* example for setup keybinding http://unix.stackexchange.com/questions/5998/how-do-i-bind-to-shiftleft-right-in-tmux
+* tmux man page http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1#options
 
 ### [sublime text](sublimetext.md) for text editor
 My favorite text editor, please go to sublime text page
