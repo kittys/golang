@@ -44,10 +44,10 @@ sudo dpkg -i teamviewer_linux.deb;
 * Shortcut for manage window `Applications Menu --> Setting --> Settings Manager --> window manager settings > Keyboard`
 * Another place for keyboard shortcuts `Menu → Settings → Settings Editor, select "xfce4-keyboard-shortcuts`
 
-[tmux](http://code.tutsplus.com/tutorials/intro-to-tmux--net-33889) for terminal multiplexing
+### [tmux](http://code.tutsplus.com/tutorials/intro-to-tmux--net-33889) for terminal multiplexing
 like web browse with will have many tabs. [tmux](https://danielmiessler.com/study/tmux/) let's you have many tabs for terminal
 * can intall via "software manager"
 * still not get it, will come back later
 
-[sublime text](sublimetext.md) for text editor
+### [sublime text](sublimetext.md) for text editor
 My favorite text editor, please go to sublime text page
