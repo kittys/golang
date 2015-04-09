@@ -3,6 +3,7 @@ It's list by app / site name. Feel free to look at it. You may find something in
 
 ## Web Site
 * [github](github.md) markdown syntax, how to use git, cool repos
+* [stack overflow](stackoverflow.md) rss feed
 
 ## App
 * [utility](utility.md) just lists of name, link and short description
