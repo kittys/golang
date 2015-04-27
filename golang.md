@@ -25,6 +25,8 @@ need pre-compile library
 * cd $GOROOT/src
 * `GOARCH=386 GOOS=windows ./make.bash` for windows 32 bit
 * `GOARCH=arm GOOS=linux ./make.bash` for arm cpu (rasberry pi)
+To compile project
+* `env GOARCH=386 GOOS=windows go build -v`
 
 
 ## Basic stuff
