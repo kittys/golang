@@ -12,6 +12,12 @@
 ## Install from source (use Go compiler, not C compiler)
 * `$ GOROOT_BOOTSTRAP=$GOROOT ./all.bash | tee build_log.txt` foumd [cgo test fail](https://github.com/golang/go/issues/10573)
 * [build log from my machine](https://gist.github.com/kittys/15ce46c9b5c8c3af6c9b)
+* add go path to your .profile
+```
+export GOPATH=$HOME/gopath
+export GOROOT=$HOME/goroot
+export PATH=$PATH:$GOROOT/bin
+```
 
 ## Basic stuff
 * [Markdown syntax](https://help.github.com/articles/markdown-basics/) and [advance](https://help.github.com/articles/github-flavored-markdown/)
