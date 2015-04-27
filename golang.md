@@ -18,6 +18,7 @@ export GOPATH=$HOME/gopath
 export GOROOT=$HOME/goroot
 export PATH=$PATH:$GOROOT/bin
 ```
+* then `source ~/.profile`
 
 ## Basic stuff
 * [Markdown syntax](https://help.github.com/articles/markdown-basics/) and [advance](https://help.github.com/articles/github-flavored-markdown/)
