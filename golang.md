@@ -19,6 +19,13 @@ export GOROOT=$HOME/goroot
 export PATH=$PATH:$GOROOT/bin
 ```
 * then `source ~/.profile`
+ 
+## Make go cross-compile
+need pre-compile library
+* cd $GOROOT/src
+* `GOARCH=386 GOOS=windows ./make.bash` for windows 32 bit
+* `GOARCH=arm GOOS=linux ./make.bash` for arm cpu (rasberry pi)
+
 
 ## Basic stuff
 * [Markdown syntax](https://help.github.com/articles/markdown-basics/) and [advance](https://help.github.com/articles/github-flavored-markdown/)
