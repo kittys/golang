@@ -4,6 +4,12 @@
 * live package docuement http://godoc.org/
 * 
 
+## Install from source[http://golang.org/doc/install/source]
+* `sudo apt-get install gcc libc6-dev libc-dev-i386`
+* `sudo apt-get install git`
+* more here[http://golang.org/doc/install/source]
+* `$ GOROOT_BOOTSTRAP=$GOROOT ./all.bash` foumd [cgo test fail](https://github.com/golang/go/issues/10573)
+
 ## Basic stuff
 * [Markdown syntax](https://help.github.com/articles/markdown-basics/) and [advance](https://help.github.com/articles/github-flavored-markdown/)
 * [My Star Repos](https://github.com/stars)
