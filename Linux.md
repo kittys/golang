@@ -55,3 +55,15 @@ like web browse with will have many tabs. [tmux](https://danielmiessler.com/stud
 
 ### [sublime text](sublimetext.md) for text editor
 My favorite text editor, please go to sublime text page
+
+### Samba file sharing
+Linux side
+ samba -V
+ smbpasswd
+ testparm #after edit conf
+ smbclient -v \\\\198.10.10.71\\share -U sst
+ net usershare info --long
+
+Windows side
+ net use * /del
+ net use t: \\198.10.10.71\share /user:sst passwo
